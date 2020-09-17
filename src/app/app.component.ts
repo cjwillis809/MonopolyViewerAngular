@@ -1,3 +1,4 @@
+import { Property } from './models/property';
 import { Component, OnInit } from '@angular/core';
 import { PropertiesService } from './services/properties.service';
 
@@ -8,10 +9,16 @@ import { PropertiesService } from './services/properties.service';
 })
 export class AppComponent implements OnInit {
 
+  displayData: Property[]
   constructor(private propService: PropertiesService) {}
 
   ngOnInit(): void {
     this.propService.fetchProperties();
+    this.displayData = this.propService.getSortedProperties();
+  }
+
+  getDisplayData() {
+    return this.displayData;
   }
 
   title = 'monopoly-viewer';

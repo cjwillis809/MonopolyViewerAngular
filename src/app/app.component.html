@@ -2,7 +2,9 @@
 <div id="app-root-container">
   <value-filter></value-filter>
   <div class="chart-frame-container">
-    <chart-frame chartTitle="Property Values"></chart-frame>
+    <chart-frame chartTitle="Property Values">
+      <bar-chart [chartData]="getDisplayData()"></bar-chart>
+    </chart-frame>
   </div>
 </div>
 

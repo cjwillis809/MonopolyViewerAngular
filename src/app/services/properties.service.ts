@@ -5,7 +5,7 @@ import * as data from '../data/properties.json';
 @Injectable()
 export class PropertiesService {
 
-  private allProperties: any[]
+  private allProperties: Property[]
   private displayProperties: Property[]
 
   constructor() { }
@@ -30,5 +30,15 @@ export class PropertiesService {
     // Create and return a unique array using Set
     let colorSet = Array.from(new Set(colorGroups));
     return colorSet;
+  }
+
+  getAllProperties(): Property[] {
+    return this.allProperties;
+  }
+
+  getSortedProperties(): Property[] {
+    return this.allProperties.sort((a, b) => {
+      return a.property_value - b.property_value
+    })
   }
 }
