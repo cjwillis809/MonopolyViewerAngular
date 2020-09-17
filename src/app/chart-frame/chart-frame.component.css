@@ -1,0 +1,14 @@
+#chart-frame-root {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #2b323b;
+    width: 500px; 
+}
+
+#chart-title {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}

@@ -1,4 +1,12 @@
 #app-root-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+value-filter {
+    text-align: center;
+}
+
+.chart-frame-container {
+    margin-top: 100px;
 }

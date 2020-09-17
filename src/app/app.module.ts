@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ValueFilterComponent } from './value-filter/value-filter.component';
 import { PropertiesService } from './services/properties.service';
+import { ChartFrameComponent } from './chart-frame/chart-frame.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ValueFilterComponent
+    ValueFilterComponent,
+    ChartFrameComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule
