@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "name": "Mediterranean Ave.",
+        "property_type": "normal",
+        "property_value": 60,
+        "color_group": "indigo",
+        "base_rent": 2,
+        "house_rents": [
+            10, 30, 90, 160
+        ],
+        "hotel_rent": 250
+    },
+    {
+        "id": 2,
+        "name": "Baltic Ave.",
+        "property_type": "normal",
+        "property_value": 60,
+        "color_group": "indigo",
+        "base_rent": 4,
+        "house_rents": [
+            20, 60, 180, 320
+        ],
+        "hotel_rent": 450
+    },
+    {
+        "id": 3,
+        "name": "Reading Railroad",
+        "property_type": "railroad",
+        "property_value": 200,
+        "color_group": "black",
+        "base_rent": 25
+    },
+    {
+        "id": 4,
+        "name": "Oriental Ave.",
+        "property_type": "normal",
+        "property_value": 100,
+        "color_group": "lightblue",
+        "base_rent": 6,
+        "house_rents": [
+            30, 90, 270, 400
+        ],
+        "hotel_rent": 550
+    },
+    {
+        "id": 5,
+        "name": "Vermont Ave.",
+        "property_type": "normal",
+        "property_value": 100,
+        "color_group": "lightblue",
+        "base_rent": 6,
+        "house_rents": [
+            30, 90, 270, 400
+        ],
+        "hotel_rent": 550
+    },
+    {
+        "id": 6,
+        "name": "Connecticut Ave.",
+        "property_type": "normal",
+        "property_value": 120,
+        "color_group": "lightblue",
+        "base_rent": 8,
+        "house_rents": [
+            40, 100, 300, 450
+        ],
+        "hotel_rent": 600
+    },
+    {
+        "id": 7,
+        "name": "St. Charles Place",
+        "property_type": "normal",
+        "property_value": 140,
+        "color_group": "pink",
+        "base_rent": 10,
+        "house_rents": [
+            50, 150, 450, 625
+        ],
+        "hotel_rent": 750
+    },
+    {
+        "id": 8,
+        "name": "Electric Company",
+        "property_type": "utility",
+        "property_value": 150,
+        "color_group": "gray",
+        "base_rent": 0
+    },
+    {
+        "id": 9,
+        "name": "States Ave.",
+        "property_type": "normal",
+        "property_value": 140,
+        "color_group": "pink",
+        "base_rent": 10,
+        "house_rents": [
+            50, 150, 450, 625
+        ],
+        "hotel_rent": 750
+    },
+    {
+        "id": 10,
+        "name": "Virginia Ave.",
+        "property_type": "normal",
+        "property_value": 160,
+        "color_group": "pink",
+        "base_rent": 12,
+        "house_rents": [
+            60, 180, 500, 700
+        ],
+        "hotel_rent": 900
+    },
+    {
+        "id": 11,
+        "name": "Pennsylvania R.R.",
+        "property_type": "railroad",
+        "property_value": 200,
+        "color_group": "black",
+        "base_rent": 25
+    },
+    {
+        "id": 12,
+        "name": "St. James Place",
+        "property_type": "normal",
+        "property_value": 180,
+        "color_group": "orange",
+        "base_rent": 14,
+        "house_rents": [
+            70, 200, 550, 750
+        ],
+        "hotel_rent": 950
+    },
+    {
+        "id": 13,
+        "name": "Tennessee Ave.",
+        "property_type": "normal",
+        "property_value": 180,
+        "color_group": "orange",
+        "base_rent": 14,
+        "house_rents": [
+            70, 200, 550, 750
+        ],
+        "hotel_rent": 950
+    },
+    {
+        "id": 14,
+        "name": "New York Ave.",
+        "property_type": "normal",
+        "property_value": 200,
+        "color_group": "orange",
+        "base_rent": 16,
+        "house_rents": [
+            80, 220, 600, 800
+        ],
+        "hotel_rent": 1000
+    },
+    {
+        "id": 15,
+        "name": "Kentucky Ave.",
+        "property_type": "normal",
+        "property_value": 220,
+        "color_group": "red",
+        "base_rent": 18,
+        "house_rents": [
+            90, 250, 700, 875
+        ],
+        "hotel_rent": 1050
+    },
+    {
+        "id": 16,
+        "name": "Indiana Ave.",
+        "property_type": "normal",
+        "property_value": 220,
+        "color_group": "red",
+        "base_rent": 18,
+        "house_rents": [
+            90, 250, 700, 875
+        ],
+        "hotel_rent": 1050
+    },
+    {
+        "id": 17,
+        "name": "Illinois Ave.",
+        "property_type": "normal",
+        "property_value": 240,
+        "color_group": "red",
+        "base_rent": 20,
+        "house_rents": [
+            100, 300, 750, 925
+        ],
+        "hotel_rent": 1100
+    },
+    {
+        "id": 18,
+        "name": "B. & O. Railroad",
+        "property_type": "railroad",
+        "property_value": 200,
+        "color_group": "black",
+        "base_rent": 25
+    },
+    {
+        "id": 19,
+        "name": "Atlantic Ave.",
+        "property_type": "normal",
+        "property_value": 260,
+        "color_group": "yellow",
+        "base_rent": 22,
+        "house_rents": [
+            110, 330, 800, 975
+        ],
+        "hotel_rent": 1150
+    },
+    {
+        "id": 20,
+        "name": "Ventnor Ave.",
+        "property_type": "normal",
+        "property_value": 260,
+        "color_group": "yellow",
+        "base_rent": 22,
+        "house_rents": [
+            110, 330, 800, 975
+        ],
+        "hotel_rent": 1150
+    },
+    {
+        "id": 21,
+        "name": "Water Works",
+        "property_type": "utility",
+        "property_value": 150,
+        "color_group": "gray",
+        "base_rent": 0
+    },
+    {
+        "id": 22,
+        "name": "Marvin Gardens",
+        "property_type": "normal",
+        "property_value": 280,
+        "color_group": "yellow",
+        "base_rent": 24,
+        "house_rents": [
+            120, 360, 850, 1025
+        ],
+        "hotel_rent": 1200
+    },
+    {
+        "id": 23,
+        "name": "Pacific Ave.",
+        "property_type": "normal",
+        "property_value": 300,
+        "color_group": "green",
+        "base_rent": 26,
+        "house_rents": [
+            130, 390, 900, 1100
+        ],
+        "hotel_rent": 1275
+    },
+    {
+        "id": 24,
+        "name": "No. Carolina Ave.",
+        "property_type": "normal",
+        "property_value": 300,
+        "color_group": "green",
+        "base_rent": 26,
+        "house_rents": [
+            130, 390, 900, 1100
+        ],
+        "hotel_rent": 1275
+    },
+    {
+        "id": 25,
+        "name": "Pennsylvania Ave.",
+        "property_type": "normal",
+        "property_value": 320,
+        "color_group": "green",
+        "base_rent": 28,
+        "house_rents": [
+            150, 450, 1000, 1200
+        ],
+        "hotel_rent": 1400
+    },
+    {
+        "id": 18,
+        "name": "Short Line Railroad",
+        "property_type": "railroad",
+        "property_value": 200,
+        "color_group": "black",
+        "base_rent": 25
+    },
+    {
+        "id": 27,
+        "name": "Park Place",
+        "property_type": "normal",
+        "property_value": 350,
+        "color_group": "darkblue",
+        "base_rent": 35,
+        "house_rents": [
+            175, 500, 1100, 1300
+        ],
+        "hotel_rent": 1500
+    },
+    {
+        "id": 28,
+        "name": "Boardwalk",
+        "property_type": "normal",
+        "property_value": 400,
+        "color_group": "darkblue",
+        "base_rent": 50,
+        "house_rents": [
+            200, 600, 1400, 1700
+        ],
+        "hotel_rent": 2000
+    }
+]
